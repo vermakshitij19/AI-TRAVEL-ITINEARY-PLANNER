@@ -1,0 +1,28 @@
+# Virtual environments
+venv/
+.venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python cache/build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Application output
+logs/
+
+# Tool/editor files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+
+# Streamlit local configuration/secrets
+.streamlit/secrets.toml
